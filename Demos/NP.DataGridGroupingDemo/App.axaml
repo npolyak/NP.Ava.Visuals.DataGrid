@@ -3,10 +3,11 @@
              x:Class="NP.DataGridGroupingDemo.App"
              xmlns:np="https://np.com/visuals"
              xmlns:local="clr-namespace:NP.DataGridGroupingDemo">
-	<Application.Styles>
-		<SimpleTheme/>
-		<StyleInclude Source="avares://Avalonia.Controls.DataGrid/Themes/Simple.xaml" />
-		<StyleInclude Source="avares://NP.Ava.Visuals/Themes/ButtonStyles.axaml"/>
-		<StyleInclude Source="avares://NP.Ava.Visuals/Themes/ThemeStyles.axaml"/>
-	</Application.Styles>
+    <Application.Styles>
+        <SimpleTheme/>
+        <StyleInclude Source="avares://Avalonia.Controls.DataGrid/Themes/Simple.xaml" />
+        <StyleInclude Source="avares://NP.Ava.Visuals/Themes/ButtonStyles.axaml"/>
+        <StyleInclude Source="avares://NP.Ava.Visuals/Themes/ThemeStyles.axaml"/>
+        <StyleInclude Source="avares://NP.Ava.Visuals.DG/Themes/DataGridStyles.axaml"/>
+    </Application.Styles>
 </Application>

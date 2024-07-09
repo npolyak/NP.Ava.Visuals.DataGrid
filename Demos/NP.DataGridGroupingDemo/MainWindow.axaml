@@ -234,13 +234,13 @@
 										np:DataGridGroupingBehavior.GroupingPropName="LastName"
 										np:DataGridFilteringBehavior.FilterPropName="LastName"
 										>
-					<local:GroupColumnFinderBehavior.GroupCellTemplate>
+					<np:GroupColumnFinderBehavior.GroupCellTemplate>
 						<DataTemplate>
 							<TextBlock Text="{Binding}"
 									   VerticalAlignment="Center"
 									   Margin="25,0,0,0"/>
 						</DataTemplate>
-					</local:GroupColumnFinderBehavior.GroupCellTemplate>
+					</np:GroupColumnFinderBehavior.GroupCellTemplate>
 					<DataGridTemplateColumn.CellTemplate>
 						<DataTemplate>
 							<TextBlock Text="{Binding Path=LastName}"

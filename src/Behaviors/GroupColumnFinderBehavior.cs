@@ -1,15 +1,12 @@
 ﻿using Avalonia;
-using Avalonia.Collections;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml.Templates;
-using NP.Ava.Visuals.Behaviors.DataGridBehaviors;
 using NP.Utilities;
 using System;
-using System.ComponentModel;
 using System.Linq;
 using System.Reactive.Linq;
 
-namespace NP.DataGridGroupingDemo
+namespace NP.Ava.Visuals.DG.Behaviors
 {
     public static class GroupColumnFinderBehavior
     {

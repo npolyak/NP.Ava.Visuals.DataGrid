@@ -2,10 +2,14 @@
 	<PropertyGroup>
 		<OutputType>WinExe</OutputType>
 	</PropertyGroup>
-	<ItemGroup Condition="'$(Configuration)'=='Release'">
-		<PackageReference Update="NP.Ava.Visuals" Version="1.0.19" />
-	</ItemGroup>
-	<ItemGroup>
-	  <PackageReference Include="Avalonia.Desktop" Version="11.0.10" />
-	</ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\..\src\NP.Ava.Visuals.DG.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Avalonia.Desktop"
+                          Version="$(AvaloniaVersion)" />
+        <PackageReference Condition="'$(Configuration)' == 'Debug'"
+                          Include="Avalonia.Diagnostics"
+                          Version="$(AvaloniaVersion)" />
+    </ItemGroup>
 </Project>
