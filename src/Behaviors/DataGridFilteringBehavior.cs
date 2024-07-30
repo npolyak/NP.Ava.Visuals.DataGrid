@@ -182,6 +182,7 @@ namespace NP.Ava.Visuals.DG.Behaviors
             DataGridColumnHeader header = (DataGridColumnHeader)args.Sender;
 
             DataGrid dataGrid = (DataGrid)header.GetPropValue("OwningGrid", true);
+            dataGrid.CommitEdit();
 
             BuildFilter(dataGrid);
         }
