@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<RootNamespace>NP.Ava.Visuals.DG</RootNamespace>
 		<PackageId>NP.Ava.Visuals.DG</PackageId>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		<Authors>Nick Polyak, Ph. D.</Authors>
 		<Company>AWebPros</Company>
 		<Authors>Nick Polyak Ph. D.</Authors>
@@ -58,6 +58,6 @@
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(Configuration)'=='Release'">
-		<PackageReference Include="NP.Ava.Visuals" Version="1.0.24" />
+		<PackageReference Include="NP.Ava.Visuals" Version="1.0.48" />
 	</ItemGroup>
 </Project>

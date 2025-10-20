@@ -16,6 +16,6 @@
                           Version="$(AvaloniaVersion)" />
         <PackageReference Condition="'$(Configuration)' == 'Release'"
                           Include="NP.Ava.Visuals.DG"
-                          Version="1.0.1" />
+                          Version="1.0.2" />
     </ItemGroup>
 </Project>
