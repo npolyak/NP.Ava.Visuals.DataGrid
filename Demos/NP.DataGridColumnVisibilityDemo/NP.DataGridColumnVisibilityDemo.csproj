@@ -12,6 +12,6 @@
         <PackageReference Include="Avalonia.Desktop" Version="$(AvaloniaVersion)" />
         <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="$(AvaloniaVersion)" />
         <PackageReference Include="Avalonia.Themes.Simple" Version="$(AvaloniaVersion)" />
-        <PackageReference Condition="'$(Configuration)' == 'Release'" Include="NP.Ava.Visuals.DG" Version="1.0.1" />
+        <PackageReference Condition="'$(Configuration)' == 'Release'" Include="NP.Ava.Visuals.DG" Version="1.0.2" />
     </ItemGroup>
 </Project>
