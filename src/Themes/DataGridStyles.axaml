@@ -1,5 +1,6 @@
 <Styles xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:CompileBindings="False"
         xmlns:np="https://np.com/visuals">
     <Style Selector="DataGridColumnHeader.WithFilter">
         <Setter Property="np:DataGridGroupingBehavior.IsHeaderGroupingOn"

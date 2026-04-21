@@ -45,8 +45,8 @@
 		<None Remove="README.md" />
 	</ItemGroup>
 	<ItemGroup>
-        <PackageReference Include="Avalonia.Controls.DataGrid" Version="$(AvaloniaVersion)" />
-		<PackageReference Include="IgnoresAccessChecksToGenerator" Version="0.7.0" PrivateAssets="All" />
+        <PackageReference Include="Avalonia.Controls.DataGrid" Version="12.0.0" />
+		<PackageReference Include="IgnoresAccessChecksToGenerator" Version="0.8.0" PrivateAssets="All" />
 	</ItemGroup>
 	<ItemGroup>
 		<InternalsAssemblyName Include="Avalonia" />

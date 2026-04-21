@@ -17,7 +17,7 @@ namespace NP.DataGridGroupingDemo
         {
             InitializeComponent();
 #if DEBUG
-            this.AttachDevTools();
+            //this.AttachDeveloperTools();
 #endif 
             DoButton.Click += DoButton_Click;
         }

@@ -4,6 +4,7 @@
         xmlns:np="https://np.com/visuals"
 		xmlns:collections="using:Avalonia.Collections"
         x:Class="NP.DataGridGroupingDemo.MainWindow"
+		x:CompileBindings="False"
         Title="NP.DataGridGroupingDemo"
         x:Name="Root" 
 		Width="600"

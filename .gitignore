@@ -5,3 +5,5 @@
 /src/bin/Debug/net8.0
 /src/obj
 /src/bin/Release
+/src/bin/Debug/net9.0
+/src/bin/Debug/net10.0
