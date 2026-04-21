@@ -36,6 +36,7 @@
 			      CanUserResizeColumns="True"
 				  HorizontalAlignment="Left"
 				  Grid.Row="1"
+				  x:CompileBindings="False"
 			      np:DataGridFilteringBehavior.DataGridFilterTextBoxClasses="DataGridFilterTextBox"
 				  np:DataGridFilteringBehavior.RowDataType="{x:Type local:Person}"
 				  np:DataGridCollectionViewBehavior.ItemsSource="{Binding $parent[Window].ThePeople}">

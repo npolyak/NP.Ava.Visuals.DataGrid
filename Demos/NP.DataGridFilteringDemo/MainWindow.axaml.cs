@@ -13,7 +13,7 @@ namespace NP.DataGridFilteringDemo
         {
             InitializeComponent();
 #if DEBUG
-            this.AttachDevTools();
+            //this.AttachDeveloperTools();
 #endif
         }
 

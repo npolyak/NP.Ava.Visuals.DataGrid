@@ -4,6 +4,7 @@
         xmlns:np="https://np.com/visuals"
         x:Class="NP.DataGridFilteringDemo.MainWindow"
         Title="NP.DataGridFilteringDemo"
+		x:CompileBindings="False"
         x:Name="Root"
 		Width="500"
 		Height="400">
